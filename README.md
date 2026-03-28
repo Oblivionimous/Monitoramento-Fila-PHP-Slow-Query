@@ -49,8 +49,9 @@ chmod +x /usr/local/bin/monitor_db.sh
 monitor_app.sh    # no servidor de aplicacao
 monitor_db.sh     # no servidor de banco
 ```
-<img width="1315" height="471" alt="image" src="https://github.com/user-attachments/assets/748fb058-4ee8-4419-83c4-26098cddb5c4" />
+<img width="936" height="463" alt="image" src="https://github.com/user-attachments/assets/756785bd-57b8-4edf-a191-bd5010ae3f8c" />
 
+<img width="1315" height="471" alt="image" src="https://github.com/user-attachments/assets/748fb058-4ee8-4419-83c4-26098cddb5c4" />
 ---
 
 ## Pre-requisitos e Instalacao
