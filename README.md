@@ -229,7 +229,6 @@ Os logs possuem **rotacao automatica**: quando atingem 50MB, o arquivo atual e r
 [28/03/2026 07:30:19] [ERROR] Sem acesso ao MySQL
 ```
 <img width="883" height="249" alt="image" src="https://github.com/user-attachments/assets/f697f658-7e40-4309-b3f2-c35dd6b3ea7c" />
-<img width="1635" height="560" alt="image" src="https://github.com/user-attachments/assets/e0666fc7-2b6b-4259-9c76-948be9b02e44" />
 
 Niveis: `INFO` (informativo), `WARN` (alerta que requer atencao), `ERROR` (falha critica).
 
