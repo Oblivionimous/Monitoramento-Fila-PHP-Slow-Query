@@ -1,0 +1,16 @@
+# Logs
+*.log
+*.log.*.bak
+
+# Credenciais MySQL
+.my.cnf
+
+# Arquivos temporarios de editor
+*.swp
+*.swo
+*~
+.*.swp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,36 @@
+# =============================================================================
+# Exemplo de configuracao ~/.my.cnf para o script monitor_db.sh
+#
+# Instrucoes:
+#   1. Copie este arquivo para ~/.my.cnf no servidor de banco de dados
+#      cp exemplo-my.cnf ~/.my.cnf
+#
+#   2. Edite o arquivo e substitua os valores de usuario e senha
+#      vi ~/.my.cnf
+#
+#   3. Proteja o arquivo com permissoes restritas (OBRIGATORIO)
+#      chmod 600 ~/.my.cnf
+#
+# O script monitor_db.sh usa o cliente mysql que le automaticamente
+# as credenciais de ~/.my.cnf, sem necessidade de digitar senha.
+#
+# SEGURANCA:
+#   Mantenha a linha "password" ativa APENAS durante testes e validacao.
+#   Apos confirmar que o monitoramento funciona, COMENTE ou REMOVA a
+#   linha "password" para nao deixar credenciais expostas em disco.
+#   Com a senha comentada, o MySQL pedira a senha interativamente
+#   a cada execucao do script.
+# =============================================================================
+
+[client]
+user=USUARIO_AQUI
+password=SENHA_AQUI
+# host=127.0.0.1
+# port=3306
+
+# Apos validar, comente a senha para maior seguranca:
+# [client]
+# user=USUARIO_AQUI
+# # password=SENHA_AQUI    ← comentado por seguranca
+# # host=127.0.0.1
+# # port=3306
