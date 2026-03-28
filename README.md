@@ -228,6 +228,8 @@ Os logs possuem **rotacao automatica**: quando atingem 50MB, o arquivo atual e r
 [28/03/2026 07:30:19] [WARN] FPM slow_requests=5
 [28/03/2026 07:30:19] [ERROR] Sem acesso ao MySQL
 ```
+<img width="883" height="249" alt="image" src="https://github.com/user-attachments/assets/f697f658-7e40-4309-b3f2-c35dd6b3ea7c" />
+<img width="1658" height="276" alt="image" src="https://github.com/user-attachments/assets/1cb16c20-6282-4e4b-9a2a-c0a6c60e56c1" />
 
 Niveis: `INFO` (informativo), `WARN` (alerta que requer atencao), `ERROR` (falha critica).
 
